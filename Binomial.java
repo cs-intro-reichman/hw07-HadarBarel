@@ -26,7 +26,7 @@ public class Binomial {
 		//// and then initializes all its elements to -1.
 		//// It then calls binomial(n, k, memo), which does all the heavy lifiting.
 
-		int [][] memo = new int [n+1][k+1];
+		int [][] memo = new int [n+1][n+1];
 
 		for (int i = 0; i < memo.length; i++){
 
